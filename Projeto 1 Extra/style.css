@@ -1,14 +1,15 @@
 body {
     font-family: 'open sans', sans-serif;
     color: #828282;
+    text-align: center;
 }
 
-div {
+p {
     text-align: center;
 }
 
 #main {
-    margin: 0 auto 64px;
+    margin: 74px auto;
     width: 626px;
 }
 
@@ -31,7 +32,27 @@ strong {
     color: #3F3D56;
 }
 
-a {
+
+#footer a {
     color: #3F3D56;
     font-weight: bold;
+    text-decoration: none;
+}
+
+#line {
+    width: 391px;
+    border: 1px solid #ECEFF2;
+    margin: 64px auto 16px
+}
+
+#footer a + a {
+    margin-left: 42px;
+}
+
+
+#wave {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
 }
